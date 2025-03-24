@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+body {
+    background-color: #FFF9EC;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #FCB1A6;
+    font-size:xx-large;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FCB1A6;
+    align-items: center;
+    box-shadow: 2px;
+
+
+}
+nav img {
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+nav a {
+    text-decoration: none;
+    
+}
+
+
+.card {
+    background-color: #FFDCCC;
+    font-optical-sizing: auto;
+    font-weight:100;
+    margin: 20px;
+    width: 300px;
+    border-radius: 70px;
+    overflow: hidden;
+    box-shadow: 0px, 5px, 10px;
+    
+}
+.card img {
+
+    width: 300px;
+}
+.card p {
+  padding: 20px;
+}
+.card h3 {
+    padding-left: 20px;
+
+}
+.card :hover {
+    transform: scale(1.10);
+}
+.todo {
+    justify-content: center;
+    display: flex;
+}
+.articulo h1 {
+    display: flex;
+    justify-content: center;
+}
+.articulo {
+
+    justify-content: center;
+}
+
+.total img {
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+    padding-left: 300px;
+    position: relative;
+    top: 10px;
+    
+}
+.total p{
+    position: relative;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding-left: 750px;
+    text-align: center;
+    top: -270px;
+    
+
+}
+.total h2 {
+
+    display: flex;
+    justify-content: center; 
+    position: relative;
+    top: -280px;
+
+}
+footer {
+    background-color: #dadada;
+}
+footer p {
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+body {
+    background-color: #FFF9EC;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #FCB1A6;
+    font-size:xx-large;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FCB1A6;
+    align-items: center;
+    box-shadow: 2px;
+
+
+}
+nav img {
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+nav a {
+    text-decoration: none;
+    
+}
+main p {
+    width: 600px;
+}
