@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #FFF9EC;
-    margin: 0;
-    padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin: 0px;
+    padding: 0px;
 }
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
+
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
     background-color: #FCB1A6;
     font-size:xx-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 nav {
-    
     display: flex;
     justify-content: space-around;
     background-color: #FCB1A6;
@@ -35,6 +35,10 @@ nav a {
     text-decoration: none;
     font-size: larger;
 }
+.holaa {
+    display: flex;
+    justify-content: center;
+}
 
 
 .card {
@@ -49,19 +53,34 @@ nav a {
     
 }
 .card img {
-
+    height: 200px;
     width: 300px;
 }
+
 .card p {
-    text-align: justify;
-  padding: 20px;
+    display: flex;
+
+  justify-content: center;
 }
 .card h3 {
-    padding-left: 20px;
+    display: flex;
+
+    justify-content: center;
 
 }
-.card :hover {
+.card button {
+    display: block;
+    margin: 20px;
+    position: relative;
+    right: -100px;
+    border-radius: 20px;
+    color: #FFF9EC;
+    color: black;
+    background-color:#FFF9EC;
+}
+.todo :hover {
     transform: scale(1.10);
+
 }
 .todo {
     justify-content: center;
@@ -79,6 +98,7 @@ nav a {
 .total img {
     display: flex;
     width: 400px;
+    height: 300px;
     border-radius: 30px;
     padding-left: 300px;
     position: relative;
@@ -86,14 +106,14 @@ nav a {
     
 }
 .total p{
+    text-align: justify;
     position: relative;
     width: 400px;
-    display: flex;
-    justify-content: center;
     padding-left: 750px;
     text-align: center;
     top: -270px;
     text-align: justify;
+    
 
 }
 .total h2 {
